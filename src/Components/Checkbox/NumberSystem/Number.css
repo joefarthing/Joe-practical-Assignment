@@ -1,0 +1,13 @@
+.Number{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: red;
+    font-weight: bolder;
+    padding: 5px;
+}
+.Number p{
+    padding: 8px;
+}

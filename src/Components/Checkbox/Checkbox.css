@@ -1,0 +1,269 @@
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    flex-direction: row;
+    margin-left: 41.5%;
+    margin-right: 41.5%;
+    background: #cdcdcd;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.radio-group input[type="radio"]{
+    display: none;
+    
+}
+.red span{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 3px solid red;
+    display: inline-block;
+    left: 0;
+    top: 7px;
+
+}
+.red span::after{
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: red;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    transform: translate(-50%,-50%) scale(0);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transition: 300ms ease-in-out 0s;
+}
+.red input[type="radio"]:checked ~ span::after{
+    transform: translate(17.5%,17.5%) scale(1);
+}
+
+.lightred span{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 3px solid #FF4500;
+    display: inline-block;
+    left: 0;
+    top: 7px;
+
+}
+.lightred span::after{
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #FF4500;
+    display: block;
+    transform: translate(-50%,-50%) scale(0);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transition: 300ms ease-in-out 0s;
+}
+.lightred input[type="radio"]:checked ~ span::after{
+    transform: translate(17.5%,17.5%) scale(1);
+}
+
+.orange span{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 3px solid #FF8C00;
+    display: inline-block;
+    left: 0;
+    top: 7px;
+
+}
+.orange span::after{
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #FF8C00;
+    display: block;
+    transform: translate(-50%,-50%) scale(0);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transition: 300ms ease-in-out 0s;
+}
+.orange input[type="radio"]:checked ~ span::after{
+    transform: translate(17.5%,17.5%) scale(1);
+}
+.lightorange span{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 3px solid #FF7F50;
+    display: inline-block;
+    left: 0;
+    top: 7px;
+
+}
+.lightorange span::after{
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #FF7F50;
+    display: block;
+    transform: translate(-50%,-50%) scale(0);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transition: 300ms ease-in-out 0s;
+}
+.lightorange input[type="radio"]:checked ~ span::after{
+    transform: translate(17.5%,17.5%) scale(1);
+}
+.lightestorange span{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 3px solid #FFD700;
+    display: inline-block;
+    left: 0;
+    top: 7px;
+
+}
+.lightestorange span::after{
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #FFD700;
+    display: block;
+    transform: translate(-50%,-50%) scale(0);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transition: 300ms ease-in-out 0s;
+}
+.lightestorange input[type="radio"]:checked ~ span::after{
+    transform: translate(17.5%,17.5%) scale(1);
+}
+.yellow span{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 3px solid #FFFF00;
+    display: inline-block;
+    left: 0;
+    top: 7px;
+
+}
+.yellow span::after{
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #FFFF00;
+    display: block;
+    transform: translate(-50%,-50%) scale(0);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transition: 300ms ease-in-out 0s;
+}
+.yellow input[type="radio"]:checked ~ span::after{
+    transform: translate(17.5%,17.5%) scale(1);
+}
+.neonyellow span{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 3px solid #FFFF00;
+    display: inline-block;
+    left: 0;
+    top: 7px;
+
+}
+.neonyellow span::after{
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #FFFF00;
+    display: block;
+    transform: translate(-50%,-50%) scale(0);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transition: 300ms ease-in-out 0s;
+}
+.neonyellow input[type="radio"]:checked ~ span::after{
+    transform: translate(17.5%,17.5%) scale(1);
+}
+.limegreen span{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 3px solid #ADFF2F;
+    display: inline-block;
+    left: 0;
+    top: 7px;
+
+}
+.limegreen span::after{
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #ADFF2F;
+    display: block;
+    transform: translate(-50%,-50%) scale(0);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transition: 300ms ease-in-out 0s;
+}
+.limegreen input[type="radio"]:checked ~ span::after{
+    transform: translate(17.5%,17.5%) scale(1);
+}
+.neongreen span{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 3px solid #00FF00;
+    display: inline-block;
+    left: 0;
+    top: 7px;
+
+}
+.neongreen span::after{
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #00FF00;
+    display: block;
+    transform: translate(-50%,-50%) scale(0);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transition: 300ms ease-in-out 0s;
+}
+.neongreen input[type="radio"]:checked ~ span::after{
+    transform: translate(17.5%,17.5%) scale(1);
+}
+.green span{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 3px solid #008000;
+    display: inline-block;
+    left: 0;
+    top: 7px;
+
+}
+.green span::after{
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #008000;
+    display: block;
+    transform: translate(-50%,-50%) scale(0);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transition: 300ms ease-in-out 0s;
+}
+.green input[type="radio"]:checked ~ span::after{
+    transform: translate(17.5%,17.5%) scale(1);
+}

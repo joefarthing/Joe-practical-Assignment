@@ -1,0 +1,7 @@
+.Layout{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: red;
+}

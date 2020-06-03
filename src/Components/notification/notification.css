@@ -1,0 +1,86 @@
+.flex-containerr{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}
+.chat-box{
+    width: 40vw;
+    margin-left: 5%;
+    margin-right:5% ;
+    height: 20vh;
+    color: white;
+    border: 2px solid #D3D3D3;
+    border-radius: 20px;
+    background-image: linear-gradient(#316BA8, #1c295a);
+}
+.diary{
+    width: 40vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 20vh;
+    color: white;
+    border: 2px solid #D3D3D3;
+    border-radius: 20px;
+    background-image: linear-gradient(#316BA8, #1c295a);
+}
+.diary h2{
+    margin-left: 5%;
+}
+.chat-box h2{
+    margin-left: 5%;
+}
+.note-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+.diary p{
+    margin-left: 5%;
+}
+.chat-box p{
+        margin-left: 5%;
+    
+}
+.button {
+    border-radius: 20px;
+    background-color: transparent;
+    border:  2px solid white;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 10px;
+    padding: 20px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 5%;
+    float: right;
+    margin-right: 5%;
+    padding: 20px;
+    
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
