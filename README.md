@@ -1,4 +1,4 @@
-#Dootrix application
+##Dootrix application
 
 This project aims to sort one main problem 
 
