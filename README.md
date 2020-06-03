@@ -1,3 +1,9 @@
+#Dootrix application
+
+This project aims to sort one main problem 
+
+In this report I find out how the application I created helps students to deal with their emotion. The responses that were obtained had some harsh criticism about some of the features and how some students have said how they do not think a diary will work. On a positive note the chat system was a good feature so if it were to be developed further then developing the diary side more would be a priority. It was also good to find out that making an application to help people with their emotions had a positive response. Some people thought it was a good idea that this problem was seen to. Also, even though the negative responses outweigh the positive it shows that everyone has a personal preference which hopefully in the future can be adjusted with a personalisation section for when they login. Some responses also showed how people can relate to the amount of stress and pressure mental health can give in heavy scenarios. Also admittedly there are a lot of flaws with the site that need to be changed and going through the method process again would be another priority.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
